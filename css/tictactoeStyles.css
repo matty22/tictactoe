@@ -1,0 +1,63 @@
+/*** TicTacToe Styles ***/
+body {
+  background-color: #008080;
+}
+
+#gameBoard {
+  margin: 100px 0px;
+}
+
+#boardTitle {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: white;
+}
+
+#scoreboard {
+  text-align: center;
+  font-size: 28px;
+  color: white;
+  padding: 100px 20px 0px 20px;
+}
+
+#gameResults {
+  margin-top: 20px;
+  color: gold;
+}
+
+.cell {
+  text-align: center;
+  padding: 50px 0px;
+  font-size: 40px;
+  color: #ffffff;
+  cursor: arrow;
+}
+
+#centerRow {
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+.leftColumn {
+  border-right: 2px solid white;
+}
+
+.rightColumn {
+  border-left: 2px solid white;
+}
+
+@media screen and (max-width: 600px) {
+  #boardTitle{
+    font-size: 18px;
+  }
+
+  #gameBoard {
+    margin: 0px 20px;
+  }
+
+  #scoreboard {
+    font-size: 14px;
+    padding: 20px 20px 0px 20px;
+  }
+}
