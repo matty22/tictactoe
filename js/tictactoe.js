@@ -1,6 +1,3 @@
-// @Matt - Reset game after win or tie.
-
-
 
 /*** Tic Tac Toe Javascript ***/
 var playerToken;
